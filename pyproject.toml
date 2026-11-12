@@ -1,0 +1,27 @@
+[project]
+name = "ai-agent-chatbot-system"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "bcrypt>=5.0.0",
+    "fastapi>=0.162.5",
+    "langchain>=1.5.0",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.7.4",
+    "langchain-postgres>=0.0.19",
+    "langchain-text-splitters>=1.1.3",
+    "numpy>=2.4.6",
+    "openai>=3.49.0",
+    "pgvector>=0.3.6",
+    "psycopg2-binary>=2.9.13",
+    "pydantic[email]>=2.14.3",
+    "python-dotenv>=1.2.4",
+    "python-jose[cryptography]>=3.5.0",
+    "rank-bm25>=0.2.2",
+    "redis[hiredis]>=8.1.0",
+    "sqlalchemy>=2.1.8",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[tool.uv]
+package = true
